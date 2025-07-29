@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 // pages
 import Home from './pages/Home';
@@ -19,22 +19,20 @@ import { TokenProvider } from './pages/TokenContext.js';
 function App() {
   return (
     <TokenProvider>
-      <HashRouter>
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-          <Navbar />
-          <div style={{ flex: 1 }}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/dao" element={<DaoHub />} />
-              <Route path="/proposals" element={<Proposals />} />
-              <Route path="/proposals/:id" element={<ProposalDetails />} />
-              <Route path="/docs" element={<Documentation />} />
-              <Route path="/company" element={<Company />} />
-            </Routes>
-          </div>
-          <Footer />
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <Navbar />
+        <div style={{ flex: 1 }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dao" element={<DaoHub />} />
+            <Route path="/proposals" element={<Proposals />} />
+            <Route path="/proposals/:id" element={<ProposalDetails />} />
+            <Route path="/docs" element={<Documentation />} />
+            <Route path="/company" element={<Company />} />
+          </Routes>
         </div>
-      </HashRouter>
+        <Footer />
+      </div>
     </TokenProvider>
   );
 }
