@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VulnDAO/static/css/main.783c6fb2.css",
-    "main.js": "/VulnDAO/static/js/main.3d371bad.js",
+    "main.js": "/VulnDAO/static/js/main.31f1839d.js",
     "static/js/453.275d66af.chunk.js": "/VulnDAO/static/js/453.275d66af.chunk.js",
     "index.html": "/VulnDAO/index.html",
     "main.783c6fb2.css.map": "/VulnDAO/static/css/main.783c6fb2.css.map",
-    "main.3d371bad.js.map": "/VulnDAO/static/js/main.3d371bad.js.map",
+    "main.31f1839d.js.map": "/VulnDAO/static/js/main.31f1839d.js.map",
     "453.275d66af.chunk.js.map": "/VulnDAO/static/js/453.275d66af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.783c6fb2.css",
-    "static/js/main.3d371bad.js"
+    "static/js/main.31f1839d.js"
   ]
 }
